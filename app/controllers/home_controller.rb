@@ -4,7 +4,7 @@ class HomeController < ApplicationController
   end
 
   def health
-    # raise 'oh-oh'
-    render text: 'OK'
+    raise 'oh-oh'
+    # render text: 'OK'
   end
 end
