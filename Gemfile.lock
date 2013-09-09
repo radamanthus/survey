@@ -38,6 +38,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    ey_config (0.0.6)
     hike (1.2.3)
     i18n (0.6.4)
     jbuilder (1.4.2)
@@ -53,6 +54,7 @@ GEM
     mime-types (1.23)
     minitest (4.7.5)
     multi_json (1.7.7)
+    newrelic_rpm (3.6.6.147)
     pg (0.15.1)
     polyglot (0.3.3)
     puma (2.4.0)
@@ -112,8 +114,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  ey_config
   jbuilder (~> 1.2)
   jquery-rails
+  newrelic_rpm
   pg
   puma
   rails (= 4.0.0)
