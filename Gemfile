@@ -44,7 +44,6 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'puma'
 
- gem 'newrelic_rpm'
- gem 'ey_config'
+gem 'newrelic_rpm'
+gem 'ey_config'
