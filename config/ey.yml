@@ -26,7 +26,7 @@
 #
 ---
 environments:
-  staging: {}
+  staging:
+    precompile_assets: true  # precompile assets
 defaults:
-  precompile_assets: true  # precompile assets
   migrate: false
